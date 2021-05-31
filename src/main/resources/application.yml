@@ -19,3 +19,11 @@ springdoc:
         use-root-path: true
     cache:
         disabled: true
+
+#MongoDb Config
+spring:
+  data:
+      mongodb:
+        user: test
+        password:
+        uri: mongodb://localhost:27017/tareasdb
